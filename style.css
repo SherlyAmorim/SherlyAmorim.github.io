@@ -9,8 +9,9 @@
 
 body{
     background-color: black;
-    color: pink;
+    color: #FFD9DA;
 }
+
 img{
     border-radius: 30%;
 }
@@ -19,11 +20,12 @@ h1{
     font-family: 'Dancing Script', cursive, sans-serif;
     text-align: left;            
     font-size: 115px;
-    color: #f750a9;
+    color: #EA638C;
     margin: 0 0 1% 5%
 }
+
 p {
-    background-color: #1C1C1C;
+    background-color: #1B2021;
     width: 650px;
     height: 155px;
     padding: 5px;
@@ -31,11 +33,18 @@ p {
     border-radius: 25%;
     background-size: 50% 80%;
     text-align: center;
-    font-size: 20px;            
+    color: #89023E;
+    font-size: 25px;            
     margin: 0 5% 1% 20%;
 }
+
+ul {
+    margin: -7% 0 0 5.5%;
+    color: #EA638C;
+}
+
 #pagConstrucao {
-    background-color: #1C1C1C;
+    background-color: #1B2021;
     width: 650px;
     height: 750px;
     padding: 15px;
@@ -44,11 +53,11 @@ p {
     background-size: 50% 80%;
     text-align: center;
     font-size: 46px;
-    color: #f8dbea;
+    color: #FFD9DA;
     float: right;
-    margin: -43% 5%;
-    
+    margin: -43% 5%;    
 }
+
 #rede {
-    color: #f750a9;
+    color: #EA638C;
 }
