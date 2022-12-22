@@ -7,16 +7,21 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: black;
     color: #FFD9DA;
 }
 
-img{
+img {
     border-radius: 30%;
+    width:300px;
+    float:left;
+    padding: 5px;
+    background-color: #89023E;
+    margin: 20px;
 }
 
-h1{
+h1 {
     font-family: 'Dancing Script', cursive, sans-serif;
     text-align: left;            
     font-size: 115px;
@@ -24,22 +29,41 @@ h1{
     margin: 0 0 1% 5%
 }
 
-p {
+div {
     background-color: #1B2021;
+    margin: 2% 5% 1% 20%;
+    overflow-y: scroll;
     width: 650px;
-    height: 155px;
-    padding: 5px;
-    border: 1px solid #333;
-    border-radius: 25%;
-    background-size: 50% 80%;
-    text-align: center;
-    color: #89023E;
-    font-size: 25px;            
-    margin: 0 5% 1% 20%;
+    height: 500px;
+    padding: 1.5% 2% 0 2%;
+    border: 5px solid #89023E;
+    border-radius: 3%;
+    background-size: 50%;
+    text-align: justify;
+    color: #EA638C;
+    font-family: 'Dancing Script', cursive, sans-serif;
+    font-size: 36px;            
+    
 }
 
-ul {
-    margin: -7% 0 0 5.5%;
+div::-webkit-scrollbar {
+    width: 15px;
+}
+
+div::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #EA638C; 
+    border-radius: 50px;
+}
+
+div::-webkit-scrollbar-thumb {
+    box-shadow: inset 0 0 5px #1B2021;
+    background: #89023E; 
+    border-radius: 50px;
+    height: 5%;
+  }
+
+footer {
+    margin: 2% 0 0 6.5%;
     color: #EA638C;
 }
 
@@ -47,15 +71,16 @@ ul {
     background-color: #1B2021;
     width: 650px;
     height: 750px;
-    padding: 15px;
+    padding: 0px 35px 0 35px;
     border: 1px solid #333;
     border-radius: 25%;
     background-size: 50% 80%;
     text-align: center;
-    font-size: 46px;
+    font-size: 30px;
+    font-family: sans-serif;
     color: #FFD9DA;
     float: right;
-    margin: -43% 5%;    
+    margin: -35% 5%;    
 }
 
 #rede {
